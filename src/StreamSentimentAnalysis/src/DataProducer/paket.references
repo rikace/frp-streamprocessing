@@ -1,0 +1,5 @@
+group Producer
+    Akka
+    Akka.Streams
+    TweetinviAPI
+    Newtonsoft.Json   

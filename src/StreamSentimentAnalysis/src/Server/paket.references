@@ -1,0 +1,13 @@
+group Server
+    FSharp.Core
+    Saturn
+    Thoth.Json.Giraffe
+    Microsoft.AspNetCore.WebSockets
+    System.Configuration.ConfigurationManager
+    Akka
+    Akka.FSharp
+    Akka.Streams
+    Akkling
+    Akkling.Streams
+    Newtonsoft.Json
+    TweetinviAPI

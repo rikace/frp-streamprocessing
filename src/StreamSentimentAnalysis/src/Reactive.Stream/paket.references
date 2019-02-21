@@ -1,0 +1,13 @@
+group ReactiveStream
+    Akka
+    Akka.FSharp
+    Akka.Streams
+    FSharp.Core
+    Reactive.Streams
+    TweetinviAPI
+    System.Configuration.ConfigurationManager
+    Akkling
+    Akkling.Streams
+    System.Net.Primitives
+    CsQuery
+    Microsoft.ML

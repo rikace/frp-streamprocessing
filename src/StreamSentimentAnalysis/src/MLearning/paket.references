@@ -1,0 +1,3 @@
+group MLearning
+    FSharp.Core
+    Microsoft.ML

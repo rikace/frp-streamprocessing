@@ -1,0 +1,9 @@
+.maploadercontainer,
+.mapcontainer {
+    height: 800px; /*calc(100vh - 18rem); */
+    width: 100%;
+}
+img {
+    height: 10px;
+    width: auto;
+}

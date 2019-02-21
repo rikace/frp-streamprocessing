@@ -1,0 +1,4 @@
+group WebCrawler    
+    HtmlAgilityPack
+    System.Reactive
+    System.Threading.Tasks.Dataflow

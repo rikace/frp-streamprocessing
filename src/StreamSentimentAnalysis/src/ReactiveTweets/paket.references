@@ -1,0 +1,7 @@
+group ReactiveTweets
+    Akka
+    Akka.Streams
+    Newtonsoft.Json
+    TweetinviAPI
+    System.Configuration.ConfigurationManager
+    

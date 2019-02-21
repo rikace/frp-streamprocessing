@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="model.zip" />
+    <Compile Include="..\Shared\StreamCombinators.fs">
+      <Link>StreamCombinators.fs</Link>
+    </Compile>
+    <Compile Include="Benchmark.fs" />
+    <Compile Include="MLearning.fs" />
+    <Compile Include="TweetStreaming.fs" />
+    <Compile Include="WebCrawler.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AgentWebCrawler.fsx" />
+    <None Include="PlayGround.fsx" />
+    <None Include="Streams.fsx" />
+  </ItemGroup>  
+  <ItemGroup>
+    <Content Include="paket.references" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataProducer\DataProducer.csproj" />
+    <ProjectReference Include="..\ReactiveTweets\ReactiveTweets.csproj" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
